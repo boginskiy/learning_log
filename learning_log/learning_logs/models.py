@@ -9,3 +9,7 @@ class Topic(models.Model):
     def __str__(self):
         return self.text
 
+class Foo():
+    def __init__(self, qwerty, asdfg):
+        self.qwerty = qwerty
+        self.asdfg = asdfg
